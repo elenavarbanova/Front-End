@@ -1,68 +1,35 @@
-#about-me {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-  }
-  
-#hard-skills {
-  text-align: center;
-  flex-direction: column;
-}
-
-#skills {
-  display: flex;
-  position: absolute;
-  flex-direction: row; 
-  flex-wrap: wrap;
-}
-
-#skill {
-  text-align: center;
-  width: 25%;
-}
-
-
 main {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
 }
 
-main > div  {
-  flex: 1;
-}
-#socials {  display: flex;  justify-content: space-evenly;  width: 10vw;}
-
-#left-side {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: space-evenly;
-  align-items: center;
+main > div {
+    flex: 1;
 }
 
-#left-side > h2 {
-  margin: 0rem;
-  font-size: 2.5rem
+main > h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #445964;
 }
 
-#left-side > h4 { 
-  margin: 0rem;  
-  font-size: 1rem
+main > div > h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #263138;
 }
 
 .logo {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .nav {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-align-items: center;
-  width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
 }
 
 .nav-bar{
@@ -73,14 +40,45 @@ align-items: center;
     font-family: 'Roboto', sans-serif;
 }
 
-main > h1, h2, h3, h4 {
-  font-family: 'Roboto', sans-serif;
-  color: #445964;
+#about-me {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+  
+#hard-skills {
+    text-align: center;
+    flex-direction: column;
 }
 
-main > div > h1 {
-  font-family: 'Roboto', sans-serif;
-  color: #263138;
+#skills {
+    display: flex;
+    position: absolute;
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+
+#skill {
+    text-align: center;
+    width: 25%;
+}
+
+#left-side {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#left-side > h2 {
+    margin: 0rem;
+    font-size: 2.5rem
+}
+
+#left-side > h4 { 
+    margin: 0rem;  
+    font-size: 1rem
 }
 
 .btn {
@@ -92,3 +90,8 @@ main > div > h1 {
     font-size: 1.5rem;
 }
 
+#socials {  
+    display: flex;  
+    justify-content: space-evenly;  
+    width: 10vw;
+}
