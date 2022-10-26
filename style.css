@@ -1,0 +1,100 @@
+  #about-me {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  #hard-skills {
+    text-align: center;
+    flex-direction: column;
+
+  }
+
+  #skills {
+    display: flex;
+    position: absolute;
+    flex-direction: row; 
+    flex-wrap: wrap;
+  }
+
+  #skill {
+    text-align: center;
+    width: 25%;
+  }
+
+
+main {
+  display: flex;
+  flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main > div  {
+  flex: 1;
+}
+
+  #socials {
+    display: flex;
+    justify-content: space-evenly;
+    width: 10vw;
+  }
+
+  #left-side {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #left-side > h2 {
+    margin: 0rem;
+    font-size: 2.5rem
+  }
+
+  #left-side > h4 {
+    margin: 0rem;
+    font-size: 1rem
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+  }
+
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    color: #445964;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  main > h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #445964;
+  }
+
+  main > div > h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #263138;
+  }
+
+.btn {
+    background: #263138;
+    border-radius: 20px;
+    color: #fff;
+    width: 20rem;
+    height:2rem;
+    font-size: 1.5rem;
+}
+
